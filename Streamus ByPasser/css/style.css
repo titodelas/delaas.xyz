@@ -17,7 +17,7 @@ body {
   font-size: 100%;
   font-family: "Open Sans", sans-serif;
   color: #4e5359;
-  background-color: #f3f3f5;
+  background-color: #ECECEC;
 }
 body::after {
   /* overlay layer visible on small devices when the right panel slides in */
@@ -47,7 +47,7 @@ body.cd-overlay::after {
 }
 
 a {
-  color: #EB984E;
+  color: #F273E6;
   text-decoration: none;
 }
 
@@ -61,10 +61,10 @@ header {
   height: 180px;
   line-height: 180px;
   text-align: center;
-  background-color: #EB984E;
+  background-color: #FF8B13;
 }
 header h1 {
-  color: #ffffff;
+  color: #ECECEC;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 20px;
@@ -111,7 +111,7 @@ header h1 {
   background-color: #4e5359;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #ffffff;
+  color: #ECECEC;
   white-space: nowrap;
   border-bottom: 1px solid #555b61;
   text-overflow: ellipsis;
@@ -179,7 +179,7 @@ header h1 {
     left: 0;
     height: 100%;
     width: 3px;
-    background-color: #EB984E;
+    background-color: #CF4DCE;
     opacity: 0;
     -webkit-transition: opacity 0.2s;
     -moz-transition: opacity 0.2s;
@@ -342,7 +342,7 @@ header h1 {
   font-size: 12px;
   font-size: 0.75rem;
   font-weight: 700;
-  color: #bbbbc7;
+  color: #F273E6;
 }
 .no-js .cd-faq-group {
   display: block;
@@ -392,7 +392,7 @@ header h1 {
     top: 50%;
     height: 2px;
     width: 13px;
-    background: #cfdca0;
+    background: #FF8B13;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-transition-property: -webkit-transform;
