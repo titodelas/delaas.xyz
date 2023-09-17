@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ExeBlend - Executable Injection Tool</title>
+    <style>
+      /* Custom CSS Styles */
+      body {
+        background-color: #dd5353; /* Red */
+        color: #b73e3e; /* Dark Red */
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #dbc8ac; /* Light Tan */
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        color: #eddbc0; /* Pale Yellow */
+      }
+
+      nav {
+        background-color: #dd5353; /* Red */
+        padding: 10px;
+        text-align: center;
+      }
+
+      section {
+        background-color: #dbc8ac; /* Light Tan */
+        margin: 20px;
+        padding: 20px;
+      }
+
+      h2 {
+        color: #eddbc0; /* Pale Yellow */
+      }
+
+      ol {
+        color: #b73e3e; /* Dark Red */
+        margin-left: 30px;
+      }
+
+      a {
+        color: #dd5353; /* Red */
+        text-decoration: none;
+      }
+
+      footer {
+        background-color: #eddbc0; /* Pale Yellow */
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>ExeBlend - Executable Injection Tool</h1>
+    </header>
+
+    <nav>
+      <!-- Links to different sections of the page -->
+    </nav>
+
+    <section>
+      <h2>Features</h2>
+      <p>
+        Inject one executable file into another. Option to clone all original
+        file properties. Simple command-line interface for ease of use.
+      </p>
+    </section>
+
+    <section>
+      <h2>Getting Started</h2>
+      <h3>Prerequisites</h3>
+      <p>
+        Before you can use ExeBlend, ensure you have the following
+        prerequisites:
+      </p>
+      <ul>
+        <li>Python 3.x installed on your system.</li>
+        <li>
+          Required Python modules installed (listed in
+          <code>requirements.txt</code>).
+        </li>
+      </ul>
+
+      <h3>Installation</h3>
+      <ol>
+        <li>
+          Clone the ExeBlend repository to your local machine:
+          <pre><code>git clone https://github.com/yourusername/ExeBlend.git</code></pre>
+        </li>
+        <li>
+          Navigate to the project directory:
+          <pre><code>cd ExeBlend</code></pre>
+        </li>
+        <li>
+          Install the required Python modules using pip:
+          <pre><code>pip install -r requirements.txt</code></pre>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Usage</h2>
+
+      <h3>Inject</h3>
+      <p>
+        The <code>inject</code> command is used to inject one executable file
+        into another.
+      </p>
+      <pre><code>python main.py inject [injected_file] ? [target_file] ?</code></pre>
+      <ul>
+        <li>
+          <code>[injected_file]</code>: The path to the file you want to inject.
+        </li>
+        <li>
+          <code>[target_file]</code>: The path to the target file where the
+          injection will occur.
+        </li>
+        <li>
+          Use <code>?</code> to interactively provide file paths if not
+          specified.
+        </li>
+      </ul>
+      <p>Example:</p>
+      <pre><code>python main.py inject myapp.exe ? target.exe</code></pre>
+
+      <h3>Clear</h3>
+      <p>The <code>clear</code> command clears the console.</p>
+      <pre><code>python main.py clear</code></pre>
+    </section>
+
+    <section>
+      <h2>Contributing</h2>
+      <p>
+        Contributions to ExeBlend are welcome! If you want to contribute to this
+        project, please follow these steps:
+      </p>
+      <ol>
+        <li>Fork the repository.</li>
+        <li>Create a new branch for your feature or bug fix.</li>
+        <li>Make your changes and test them.</li>
+        <li>Commit your changes with a descriptive commit message.</li>
+        <li>Push your changes to your fork.</li>
+        <li>Create a pull request to the main repository.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>License</h2>
+      <p>
+        This project is licensed under the MIT License - see the
+        <a href="https://github.com/titodelas/ExeBlend/LICENSE">LICENSE</a> file
+        for details.
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 - Your Name. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aurora Wave - Steganography</title>
+    <style>
+      /* Custom CSS Styles */
+      body {
+        background-color: #27005d;
+        color: #9400ff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #aed2ff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        color: #27005d;
+      }
+
+      nav {
+        background-color: #9400ff;
+        padding: 10px;
+        text-align: center;
+      }
+
+      section {
+        background-color: #aed2ff;
+        margin: 20px;
+        padding: 20px;
+      }
+
+      h2 {
+        color: #e4f1ff;
+      }
+
+      ol {
+        color: #9400ff;
+        margin-left: 30px;
+      }
+
+      a {
+        color: #27005d;
+        text-decoration: none;
+      }
+
+      footer {
+        background-color: #e4f1ff;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Aurora Wave - Steganography</h1>
+    </header>
+
+    <nav>
+      <!-- Links to different sections of the page -->
+    </nav>
+
+    <section>
+      <h2>About Aurora Wave</h2>
+      <p>
+        Aurora Wave is a Python-based program for simple audio steganography.
+        You can hide your secret text messages in wave audio files. Play this
+        audio in any media player and secretly share your private message with
+        anyone. The only difference you will notice is a small noise on the
+        original audio, nothing very big, it will seem like you have a bad mic,
+        or just bad audio.
+      </p>
+      <img
+        src="demo.png"
+        alt="Aurora Wave Demo"
+        style="float: center; margin-right: 10px"
+      />
+    </section>
+
+    <section>
+      <h2>Installation</h2>
+      <pre>
+        <code>
+git clone https://github.com/titodelas/Aurora-Wave.git
+cd Aurora-Wave
+        </code>
+      </pre>
+    </section>
+
+    <section>
+      <h2>Usage Example</h2>
+      <p>Aurora Wave has two Python scripts:</p>
+      <ul>
+        <li>
+          <strong>Aurora_hidden.py:</strong> for hiding secret information.
+        </li>
+        <li>
+          <strong>Aurora_show.py:</strong> to extract secret information from a
+          wave audio file.
+        </li>
+      </ul>
+
+      <h3>Hide Secret Information in Audio file</h3>
+      <pre>
+        <code>
+python Aurora_hidden.py -f Demo.wav -m "Secret Msg" -o output.wav
+        </code>
+      </pre>
+
+      <h3>Extract Secret Information from Audio file</h3>
+      <pre>
+        <code>
+python Aurora_show.py -f output.wav
+        </code>
+      </pre>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 - Edu Olivares. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
